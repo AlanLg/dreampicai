@@ -1,5 +1,11 @@
 package home
 
+import "dreampicai/view/layout"
+
 templ Index() {
-	<div>hello from the home page</div>
+@layout.App(true) {
+<div class="text-5xl text-primary">
+	hello form the home page
+</div>
+}
 }
