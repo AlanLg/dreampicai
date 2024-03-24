@@ -12,7 +12,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-// go:embed public
+//go:embed public
 var FS embed.FS
 
 func main() {
